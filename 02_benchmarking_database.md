@@ -1,6 +1,6 @@
 # Bulk Water Pipeline Benchmarking Database
 
-**Version:** 1.0
+**Version:** 2.0
 **Date:** January 2026
 **Currency Base:** AUD 2024 (Real)
 
@@ -40,6 +40,10 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | Toowoomba to Warwick Pipeline | QLD | Seqwater | TBA (procurement 2025) | Head Contractor |
 | MDW | Mareeba-Dimbulah WSS Efficiency | QLD | Sunwater | Sunwater delivery | Direct Delivery |
 | EGR | East Grampians Rural Pipeline | VIC | GWMWater | Mitchell Water | Traditional |
+| **MMP** | **Mount Morgan Pipeline** | **QLD** | **Rockhampton Regional Council** | **TBC** | **Traditional** |
+| **SWP** | **South West Pipeline SEQ** | **QLD** | **Seqwater** | **Comdain Infrastructure** | **Head Contractor** |
+| **MDP** | **Manton Dam Pipeline** | **NT** | **Power and Water Corporation** | **Exact Contracting** | **Traditional** |
+| **YYB** | **Yan Yean to Bald Hill Pipeline** | **VIC** | **Melbourne Water** | **Abergeldie JV** | **D&C** |
 
 ---
 
@@ -53,11 +57,16 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | 111.0 | 350-600 | Medium (300-600mm) | Various | 7-10 | 2,500-3,700 |
 | MDW | 14.0 | <300*** | Small (<300mm) | Various | N/A | N/A |
 | EGR | 130.0**** | 100-450 | Small-Medium | Various | N/A | 1,400 |
+| **MMP** | **28.0** | **375**† | **Small-Medium** | **TBC (likely DICL)** | **TBC** | **TBC** |
+| **SWP** | **27.0** | **525**† | **Medium** | **TBC (likely Steel/DICL)** | **TBC** | **TBC** |
+| **MDP** | **22.0** | **600** | **Medium** | **MSCL** | **TBC** | **TBC** |
+| **YYB** | **20.0** | **972** | **Large** | **MSCL (PN35)** | **TBC** | **TBC** |
 
 *Combined system capacity
 **Combined Stage 1+2 system capacity
 ***Irrigation pipeline, diameter not specified
 ****Trunk mains only; excludes 470km distribution
+†Estimated mid-point of likely range
 
 ---
 
@@ -73,8 +82,14 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | $467.0 (revised) | 2024 | - | - | - |
 | MDW | $32.5 | 2021 | Included | Included | Included |
 | EGR | $64.0 (total funding) | 2024 | Included | Included | Included |
+| **MMP** | **$88.2** | **2024** | **Included** | **Included** | **Included** |
+| **SWP** | **$95.0** | **2024** | **Included** | **Included** | **Included** |
+| **MDP** | **$55.0**‡ | **2024** | **Included** | **Included** | **Included** |
+| **YYB** | **$200.0**†† | **2024** | **Included** | **Included** | **Included** |
 
 *Estimated breakdown based on typical industry proportions; not verified
+‡Pipeline-only estimate (full project $189M includes WTP and pump stations)
+††Estimated - cost not publicly disclosed
 
 ---
 
@@ -90,6 +105,10 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP (revised) | $467.0 | 2024 | 1.000 | $467.0 |
 | MDW | $32.5 | 2021 | 1.254 | $40.8 |
 | EGR | $64.0 | 2024 | 1.000 | $64.0 |
+| **MMP** | **$88.2** | **2024** | **1.000** | **$88.2** |
+| **SWP** | **$95.0** | **2024** | **1.000** | **$95.0** |
+| **MDP** | **$55.0** | **2024** | **1.000** | **$55.0** |
+| **YYB** | **$200.0** | **2024** | **1.000** | **$200.0** |
 
 *Extrapolated from 2019 base
 **Deflated from 2025 estimate
@@ -108,9 +127,14 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP (revised) | $467.0 | 111.0 | $4.21 | 475* | $0.886 |
 | MDW | $40.8 | 14.0 | $2.91 | 200** | $1.457 |
 | EGR | $64.0 | 130.0 | $0.49 | 275** | $0.179 |
+| **MMP** | **$88.2** | **28.0** | **$3.15** | **375*** | **$0.840** |
+| **SWP** | **$95.0** | **27.0** | **$3.52** | **525*** | **$0.670** |
+| **MDP** | **$55.0** | **22.0** | **$2.50** | **600** | **$0.417** |
+| **YYB** | **$200.0** | **20.0** | **$10.00** | **972** | **$1.029** |
 
 *Average of 350-600mm range
 **Estimated typical diameter
+***Estimated mid-point of likely range
 
 ---
 
@@ -124,6 +148,12 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | Hilly/Agricultural | Regional | Multiple | No | Yes | Yes | Variable terrain |
 | MDW | Existing corridor | Rural | Within scheme | No | No | No | Efficiency retrofit |
 | EGR | Rural/Agricultural | Remote Rural | Minor | No | No | Yes (4) | Solar installations |
+| **MMP** | **Mountainous** | **Regional** | **Unknown** | **No** | **No** | **Yes** | **Razorback range, 3 reservoirs** |
+| **SWP** | **Semi-rural** | **Peri-urban** | **4 major** | **No** | **No** | **Unknown** | **Grid connection** |
+| **MDP** | **Bushland** | **Remote Regional** | **Unknown** | **No** | **Yes*** | **Yes*** | **Tropical climate** |
+| **YYB** | **Steep gradient (29%)** | **Urban fringe** | **Yes** | **Yes** | **No** | **Yes** | **Micro-tunnelling** |
+
+*Included in project but costs bundled
 
 ---
 
@@ -143,6 +173,10 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | C | A | B | C | C | C |
 | MDW | A | A | C | A | C | B |
 | EGR | B | B | B | B | C | B |
+| **MMP** | **A** | **A** | **C** | **A** | **C** | **B** |
+| **SWP** | **A** | **A** | **C** | **A** | **C** | **B** |
+| **MDP** | **C** | **A** | **A** | **B** | **D** | **C** |
+| **YYB** | **D** | **A** | **A** | **A** | **D** | **C** |
 
 ---
 
@@ -156,6 +190,10 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | TWP | Seqwater; DLGWV; Qld Ministerial Statements |
 | MDW | National Water Grid Authority; Sunwater; Qld Ministerial Statements |
 | EGR | GWMWater; National Water Grid Authority; Mitchell Water |
+| **MMP** | **National Water Grid Authority; Rockhampton Regional Council; Qld Ministerial Statements** |
+| **SWP** | **Seqwater; Qld Ministerial Statements; Comdain Infrastructure** |
+| **MDP** | **Water Security NT; National Water Grid Authority; Exact Contracting; Power and Water** |
+| **YYB** | **Melbourne Water; Abergeldie Complex Infrastructure** |
 
 ---
 
@@ -170,6 +208,10 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 | HP2 | $404.0 | 130,000** | $3,108** |
 | TWP | $467.0 | 3,650*** | $127,945 |
 | EGR | $64.0 | 1,400 | $45,714 |
+| MMP | $88.2 | TBC | TBC |
+| SWP | $95.0 | TBC | TBC |
+| MDP | $55.0 | TBC | TBC |
+| YYB | $200.0 | TBC | TBC |
 
 *Estimated based on pump/pipe capacity
 **Combined Stage 1+2 system capacity
@@ -190,6 +232,41 @@ Based on ABS Producer Price Index for Heavy and Civil Engineering Construction a
 
 ---
 
+## Database Summary Statistics
+
+### Sample Composition (v2.0)
+
+| Category | Count | Notes |
+|----------|-------|-------|
+| **Total Projects** | 10 | Up from 6 in v1.0 |
+| Core Municipal Bulk Supply | 8 | Primary benchmarking sample |
+| Supplementary (Rural/Irrigation) | 2 | Reference only |
+| Completed Projects | 5 | MMP, SWP, HP1, MDW, YYB (commissioning) |
+| Under Construction | 4 | FGP, HP2, EGR, MDP |
+| Pre-construction | 1 | TWP |
+
+### Geographic Coverage (v2.0)
+
+| State | Projects | % of Sample |
+|-------|----------|-------------|
+| Queensland | 7 | 70% |
+| Victoria | 2 | 20% |
+| **Northern Territory** | **1** | **10%** |
+
+**Improvement:** Added NT coverage (previously no NT projects)
+
+### Diameter Range Coverage (v2.0)
+
+| Diameter Class | Projects | Range (mm) |
+|----------------|----------|------------|
+| Small (<300mm) | 1 | ~200 |
+| Small-Medium (300-450mm) | 2 | 275-375 |
+| Medium (450-750mm) | 3 | 475-600 |
+| Large (750-1200mm) | 2 | 972-1000 |
+| Very Large (>1200mm) | 2 | 1800 |
+
+---
+
 ## Database Export Format (CSV-Compatible)
 
 ```
@@ -200,9 +277,22 @@ HP2,Haughton Pipeline Stage 2,QLD,28.2,1800,Very Large,274.0,2021,343.6,12.18,Gr
 TWP,Toowoomba to Warwick Pipeline,QLD,111.0,475,Medium,370.0,2023,395.5,3.56,Hilly,Regional,C,Pre-construction
 MDW,Mareeba-Dimbulah WSS,QLD,14.0,200,Small,32.5,2021,40.8,2.91,Existing,Rural,B,Completed
 EGR,East Grampians Rural Pipeline,VIC,130.0,275,Small,64.0,2024,64.0,0.49,Rural,Remote,B,Construction
+MMP,Mount Morgan Pipeline,QLD,28.0,375,Small-Medium,88.2,2024,88.2,3.15,Mountainous,Regional,B,Completed
+SWP,South West Pipeline SEQ,QLD,27.0,525,Medium,95.0,2024,95.0,3.52,Semi-rural,Peri-urban,B,Completed
+MDP,Manton Dam Pipeline,NT,22.0,600,Medium,55.0,2024,55.0,2.50,Bushland,Remote,C,Construction
+YYB,Yan Yean-Bald Hill Pipeline,VIC,20.0,972,Large,200.0,2024,200.0,10.00,Steep Gradient,Urban,C,Completed
 ```
 
 ---
 
-**Database Version:** 1.0
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | January 2026 | Initial database with 6 projects |
+| **2.0** | **January 2026** | **Added 4 high-priority projects (MMP, SWP, MDP, YYB)** |
+
+---
+
+**Database Version:** 2.0
 **Last Updated:** January 2026
